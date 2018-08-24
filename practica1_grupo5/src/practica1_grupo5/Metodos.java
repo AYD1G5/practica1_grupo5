@@ -29,4 +29,9 @@ public class Metodos {
     {
         return (float) Math.sqrt(numero);
     }
+    
+    public float RaizCubica(int numero){        
+        return  (float)Math.cbrt(numero);        
+    }
+    
 }
