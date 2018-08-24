@@ -37,4 +37,13 @@ public class Metodos {
     public int PotenciaCubo(int numero){   
         return (int) Math.pow(numero, 3); 
     }
+    
+    public int multiplicacion(int num,int num2)
+    {
+        return num*num2;
+    }
+    public float division(int num,int num2)
+    {
+        return num/num2;
+    }
 }

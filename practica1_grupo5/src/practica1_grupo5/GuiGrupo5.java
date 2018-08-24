@@ -255,10 +255,16 @@ public class GuiGrupo5 extends javax.swing.JFrame {
 
     private void bMultActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bMultActionPerformed
         // TODO add your handling code here:
+        int valor=Integer.parseInt(this.valorTexto.getValue().toString());
+        int valor2=Integer.parseInt(this.valorTexto1.getValue().toString());
+        respuesta.setText( met.multiplicacion(valor,valor2)+"");
     }//GEN-LAST:event_bMultActionPerformed
 
     private void bDivActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bDivActionPerformed
         // TODO add your handling code here:
+        int valor=Integer.parseInt(this.valorTexto.getValue().toString());
+        int valor2=Integer.parseInt(this.valorTexto1.getValue().toString());
+        respuesta.setText( met.division(valor,valor2)+"");
     }//GEN-LAST:event_bDivActionPerformed
 
     private void bPot2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bPot2ActionPerformed
