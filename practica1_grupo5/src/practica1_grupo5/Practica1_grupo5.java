@@ -17,6 +17,8 @@ public class Practica1_grupo5 {
     public static void main(String[] args) {
         // TODO code application logic here
         String creado="";
+        Metodos met = new Metodos();
+        System.out.println(">>"+met.MetodoFactorial(6));
     }
     
 }
