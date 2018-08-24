@@ -20,4 +20,8 @@ public class Metodos {
             return 0;
         }
     }
+        
+    public int CuadradoDeUnNumero(int Numero) {
+        return Numero * Numero;
+    }
 }
