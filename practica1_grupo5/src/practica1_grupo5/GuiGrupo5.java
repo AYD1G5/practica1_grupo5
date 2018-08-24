@@ -5,6 +5,8 @@
  */
 package practica1_grupo5;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author GameAndStudy
@@ -264,7 +266,14 @@ public class GuiGrupo5 extends javax.swing.JFrame {
         // TODO add your handling code here:
         int valor=Integer.parseInt(this.valorTexto.getValue().toString());
         int valor2=Integer.parseInt(this.valorTexto1.getValue().toString());
-        respuesta.setText( met.division(valor,valor2)+"");
+        if(valor2==0)
+        {
+            JOptionPane.showMessageDialog(null, "No se puede dividir entre 0", "Error", JOptionPane.INFORMATION_MESSAGE);
+        }
+        else
+        {
+            respuesta.setText( met.division(valor,valor2)+"");
+        }  
     }//GEN-LAST:event_bDivActionPerformed
 
     private void bPot2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bPot2ActionPerformed
