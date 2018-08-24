@@ -25,4 +25,8 @@ public class Metodos {
         return Numero * Numero;
     }
     
+    public float RaizCuadrada(int numero)
+    {
+        return (float) Math.sqrt(numero);
+    }
 }

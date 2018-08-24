@@ -20,6 +20,7 @@ public class Practica1_grupo5 {
         Metodos met = new Metodos();
         System.out.println(">>"+met.MetodoFactorial(6));
         System.out.println(">>" + met.CuadradoDeUnNumero(7));
+        System.out.println(">>" + met.RaizCuadrada(4));
     }
     
 }
