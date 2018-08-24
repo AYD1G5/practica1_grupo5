@@ -24,4 +24,5 @@ public class Metodos {
     public int CuadradoDeUnNumero(int Numero) {
         return Numero * Numero;
     }
+    
 }
