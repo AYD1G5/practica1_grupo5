@@ -34,4 +34,7 @@ public class Metodos {
         return  (float)Math.cbrt(numero);        
     }
     
+    public int PotenciaCubo(int numero){   
+        return (int) Math.pow(numero, 3); 
+    }
 }
